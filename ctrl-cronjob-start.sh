@@ -8,6 +8,9 @@
 # Ignore the grep --color=auto process and check Process ID of the other process
 # Do kill -9 <process-id>
 
+# To check log when last command was run use following command:
+# cat $HOME/ctrl-cronjob/ctrl-cronjob.log
+
 DIRECTORY_PATH="$HOME/ctrl-cronjob"
 FILE_PATH="$DIRECTORY_PATH/ctrl-cronjob.log"
 MESSAGE_PREFIX="Command execution done at:"
